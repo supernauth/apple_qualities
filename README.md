@@ -1,2 +1,2 @@
-# apple_qualities
+# Apple qualities
 Analysis of apple qualities and predicting their taste quality from their different properties
