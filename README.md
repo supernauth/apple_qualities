@@ -10,3 +10,5 @@ The dataset contains 4000 rows. The parameters are on a -8-to-8-grade scale. Wat
 I made a violin plot where one can see the different distributions of the parameters.
 
 ## Machine Learning
+After the required transformations, I trained the model.
+The first method I try is Support Vector Machines, but it did not work well, had an accuracy, precision and recall only around 45-47%.
