@@ -4,3 +4,5 @@ Based on the input numerical data, the model estimates what the quality of the a
 
 Data source: [kaggle.com](https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality)
 
+## Dataset
+The dataset contains 4000 rows. The parameters are on a 7-grade scale. Watching them 1-to-1 one cannot see any direct correlation between 2 parameters, that's why I considered I needed to examine it with ML algorithms.
