@@ -11,9 +11,9 @@ I made a violin plot where one can see the different distributions of the parame
 
 ## Machine Learning
 After the required transformations, I trained the model.
-The first method I try is Support Vector Machines, but it did not work well, had an accuracy, precision and recall only around 45-47%.
+Firstly, I tried the Support Vector Machines model, and it worked well. Even so, I tried the undermentioned models, too.
 
-As a result, I used other methods to make a model. Firstly, I was scaling the features with StandarnScaler.
+Firstly, I was scaling the features with StandarnScaler.
 Then, I made the following methods run:
 - Logistic Regression,
 - Linear Discriminant Analysis,
@@ -22,5 +22,15 @@ Then, I made the following methods run:
 - Gaussian Naive Bayes,
 - C-Support Vector Classification.
 
-The Decision Tree Classifier turned out to be the best performing model. I ran that model separately as well.
-The SVM that I ran first was the slowest and the worst model for each metrics.
+For the assessment of models I used accuracy, precision and recall.
+The best performing models were:
+- K-Neighbors Classifier (in accuracy),
+- Decision Tree Classifier (in precision and recall).
+The C-Support Vector Classification worked well measured by all 3 metrics.
+
+The non-mentioned models' values were at 0.75 at all 3 metrics.
+
+It is worth mentioning that the C-Support Vector Classification was very slow compared to all other models, so despite the fact it was accurate, it is not efficient.
+
+## Further investigations
+In order to understand how the models calculated, I made further calculations with Shapley, over and above with XGBoost.
