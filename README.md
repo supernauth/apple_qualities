@@ -4,10 +4,14 @@ Based on the input numerical data, the model estimates what the quality of the a
 
 Data source: [kaggle.com](https://www.kaggle.com/datasets/nelgiriyewithana/apple-quality)
 
+<center><img src="illustration_1.png" style="width: 556px; height: 425px; margin: 10px; border: 2px solid #000; box-sizing: border-box;"></center>
+
 ## Dataset
 The dataset contains 4000 rows. The parameters are on a -8-to-8-grade scale. Watching them 1-to-1 one cannot see any direct correlation between 2 parameters, that's why I considered I needed to examine it with ML algorithms.
 
 I made a violin plot where one can see the different distributions of the parameters.
+
+<center><img src="illustration.png" style="width: 778px; height: 511px; margin: 10px; border: 2px solid #000; box-sizing: border-box;"></center>
 
 ## Machine Learning
 After the required transformations, I trained the model.
@@ -34,3 +38,5 @@ It is worth mentioning that the C-Support Vector Classification was very slow co
 
 ## Further investigations
 In order to understand how the models calculated, I made further calculations with Shapley, over and above with XGBoost.
+
+<center><img src="illustration_2.png" style="width: 642px; height: 452px; margin: 10px; border: 2px solid #000; box-sizing: border-box;"></center>
